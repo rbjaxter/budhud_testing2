@@ -28,7 +28,7 @@ Scheme
         // Unified HUD Crosshairs
         /////////////////////////
 
-        "hud_crosshair_1"                                           "255 255 255 255"   // Crosshair color
+        "hud_crosshair_1"                                           "255 0 255 255"   // Crosshair color
         "hud_crosshair_1_flash"                                     "240 134 049 255"   // Flash on damage done
 
         "hud_crosshair_2"                                           "255 255 255 255"   // Crosshair color
@@ -60,7 +60,7 @@ Scheme
         "bh_Health_Main"                                            "255 255 255 255"
         "bh_Health_Shadow"                                          "000 000 000 255"
         "bh_Health_Low"                                             "186 032 032 255"
-        "bh_Health_Buff"                                            "000 153 255 255"
+        "bh_Health_Buff"                                            "186 032 032 255"
         "bh_Health_Pickup"                                          "240 134 049 255"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -151,8 +151,8 @@ Scheme
         //////////
         "bh_menu_foreground1"                                       "255 255 255 255"   // White
         "bh_menu_foreground2"                                       "255 255 255 255"   // White
-        "bh_menu_background1"                                       "240 134 049 255"   // Orange
-        "bh_menu_background2"                                       "240 134 049 255"   // Orange
+        "bh_menu_background1"                                       "186 032 032 255"   // Orange
+        "bh_menu_background2"                                       "186 032 032 255"   // Orange
 
         //////////
         // January
