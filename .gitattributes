@@ -12,11 +12,12 @@
 # All text set to automatic end-of-line normalization
 * text=auto
 
-# Working tree encoding prevents UTF-16 LE chat_ files from appearing as binary (enables git diff)
-resource/*.txt text working-tree-encoding=UTF-16LE-BOM
+# Configure Git attributes for specific .txt files:
+# - Files in "resource" directory starting with "chat_" are treated as UTF-16 LE encoded.
+resource/chat_*.txt diff working-tree-encoding=UTF-16LE
+# - Files in "resource/closecaption_" directory starting with "clovervidia" are treated as UTF-16 LE encoded.
+resource/closecaption_/clovervidia*.txt diff working-tree-encoding=UTF-16LE
 
 # Do not export these files on download
 # Don't ignore dev folder, backups are created there thru PowerScript
-.gitattributes export-ignore
-.gitignore export-ignore
-.github export-ignore
+{.gitattributes,.gitignore,.github} export-ignore
