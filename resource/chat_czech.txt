@@ -17,7 +17,7 @@
         // "TF_playerid_object_upgrading_level"                        "( Level %s1 ) %s2"
 
         // Chat Changes
-        "chat_say"                                                  "ALL "
+        "chat_say"                                                  "AaLL "
         "chat_say_team"                                             "TEAM "
         "chat_party"                                                "PARTY "
         "TF_Chat_All"                                               "%s1: %s2"
