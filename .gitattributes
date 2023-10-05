@@ -12,11 +12,8 @@
 # All text set to automatic end-of-line normalization
 * text=auto
 
-# Configure Git attributes for specific .txt files:
-# - Files in "resource" directory starting with "chat_" are treated as UTF-16 LE encoded.
-resource/chat_*.txt diff text working-tree-encoding=UTF-16LE eol=crlf
-# - Files in "resource/closecaption_" directory starting with "clovervidia" are treated as UTF-16 LE encoded.
-resource/closecaption_/clovervidia*.txt diff text working-tree-encoding=UTF-8 eol=crlf
+[attr]textfile text diff
+chat_*.txt textfile working-tree-encoding=UTF-16LE eol=CRLF
 
 # Do not export these files on download
 # Don't ignore dev folder, backups are created there thru PowerScript
