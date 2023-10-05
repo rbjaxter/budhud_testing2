@@ -13,7 +13,7 @@
 * text=auto
 
 [attr]textfile text diff
-chat_*.txt textfile working-tree-encoding=UTF-16LE eol=CRLF
+chat_*.txt textfile working-tree-encoding=UTF-16LE-BOM eol=CRLF
 
 # Do not export these files on download
 # Don't ignore dev folder, backups are created there thru PowerScript
