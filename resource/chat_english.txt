@@ -20,7 +20,7 @@
         "chat_say"                                                  "ALL "
         "chat_say_team"                                             "TEAM "
         "chat_party"                                                "PARTY "
-        "TF_Chat_All"                                               "%s1: %s2"
+        "TF_Chat_All"                                               "%saa1: %s2"
         "TF_Chat_AllDead"                                           "*DEAD* %s1: %s2"
         "TF_Chat_AllSpec"                                           "(SPEC) %s1: %s2"
         "TF_Chat_Team"                                              "(TEAM) %s1: %s2"
