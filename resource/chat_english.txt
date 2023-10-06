@@ -18,7 +18,7 @@
 
         // Chat Changes
         "chat_say"                                                  "ALaL "
-        "chat_say_team"                                             "TEAMtest "
+        "chat_say_team"                                             "TEAMtest2 "
         "chat_party"                                                "PARTY "
         "TF_Chat_All"                                               "%saa1: %s2"
         "TF_Chat_AllDead"                                           "*DEAD* %s1: %s2"
