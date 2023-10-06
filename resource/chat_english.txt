@@ -22,7 +22,7 @@
         "chat_party"                                                "PARTY "
         "TF_Chat_All"                                               "%saa1: %s2"
         "TF_Chat_AllDead"                                           "*DEAD* %s1: %s2"
-        "TF_Chat_AllSpec"                                           "(SPEC) %s1: %s2"
+        "TF_Chat_AllSpec"                                           "(SPEtrueC) %s1: %s2"
         "TF_Chat_Team"                                              "(TEAM) %s1: %s2"
         "TF_Chat_Team_Dead"                                         "*DEAD* (aaaTEAM) %s1: %s2"
         "TF_Chat_Spec"                                              "(SPEC) %s1: %s2"
