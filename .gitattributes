@@ -12,7 +12,7 @@
 # All text set to automatic end-of-line normalization
 * text=auto
 
-resource/*.txt text diff working-tree-encoding=UTF-16LE-BOM eol=crlf
+resource/*.txt text working-tree-encoding=UTF-16LE-BOM eol=crlf
 
 # Do not export these files on download
 # Don't ignore dev folder, backups are created there thru PowerScript
