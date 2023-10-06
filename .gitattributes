@@ -12,7 +12,7 @@
 # All text set to automatic end-of-line normalization
 * text=auto
 
-resource/chat_*.txt working-tree-encoding=UTF-16LE-BOM
+resource/*.txt text working-tree-encoding=UTF-16LE-BOM
 
 # Do not export these files on download
 # Don't ignore dev folder, backups are created there thru PowerScript
